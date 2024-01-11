@@ -1,0 +1,24 @@
+{
+  "name": "gerador-senhas",
+  "version": "1.0.0",
+  "description": "Melhor gerador de senhas de todos os tempos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/orodrigobezerra/gerador-senhas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orodrigobezerra/gerador-senhas/issues"
+  },
+  "homepage": "https://github.com/orodrigobezerra/gerador-senhas#readme",
+  "dependencies": {
+    "nanoid": "^5.0.4",
+    "vite": "^5.0.11"
+  },
+  "type": "module"
+}
