@@ -19,6 +19,7 @@
   "homepage": "https://github.com/orodrigobezerra/gerador-senhas#readme",
   "dependencies": {
     "@trybe/eslint-config-frontend": "^1.11.4",
+    "clipboard-copy": "^4.0.1",
     "nanoid": "^5.0.4",
     "vite": "^5.0.11"
   },
