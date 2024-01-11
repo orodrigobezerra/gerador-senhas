@@ -4,7 +4,8 @@
   "description": "Melhor gerador de senhas de todos os tempos",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --open"
+    "dev": "vite --open",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,12 @@
   },
   "homepage": "https://github.com/orodrigobezerra/gerador-senhas#readme",
   "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.4",
     "nanoid": "^5.0.4",
     "vite": "^5.0.11"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
 }
